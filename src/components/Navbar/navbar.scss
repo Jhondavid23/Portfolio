@@ -1,0 +1,60 @@
+ @import './../../variables.scss';
+
+.n-component{
+    display: flex; 
+    height: 10vh;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0px 40px 0 40px ;
+    width: 100vw;
+    z-index: 9999;
+    
+  
+    .n-left{
+        flex: 1;
+        align-items: center;
+        display: flex;
+        gap: 2rem;
+
+        .n-name{
+            font-size: 1.5rem;
+
+        }
+    }
+    .n-right{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        font-weight: 300;
+       
+        
+        .n-list{
+            flex: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ul{
+                display: flex;
+                gap: 2rem;
+                margin-right: 2rem;
+                list-style-type: none;
+                
+            }
+            li{
+                font-family: 'Nunito', sans-serif;
+            }
+            ul>li:hover{
+                cursor: pointer;
+                color: $lightBlue;
+                
+            }
+        }
+        
+    }
+}
+
+.scrolled{
+    background-color: #061726;
+    border-bottom: 1px solid #48C9B0;
+}

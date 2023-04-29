@@ -1,0 +1,48 @@
+:root {
+    --yellow : #F5C32C;
+    --orange : #FCA61F;
+    --gray : #788097;
+    --blueCard : #ddf8fe;
+    --purple : rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orengeCard : rgba(252, 166, 32, 0.45);
+    --smboxShadow : -79px 52px 60px rgba(0, 0, 0, 0.08);
+    --darkBlue : #061726;
+    --lightBlue  : #48C9B0;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.App {
+    
+    overflow: hidden;
+    background-color: var(--darkBlue);
+    color: var(--text-input-field);
+}
+
+.button{
+    border-radius: 5px;
+    border: 1px solid #48C9B0;
+    color: #48C9B0;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    background-color: var(--darkBlue);
+}
+
+.button:hover{
+    transition: background-color 0.5s ease;
+    background-color: var(--lightBlue);
+    color: white;
+    border: 1px solid white;
+}

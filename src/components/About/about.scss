@@ -1,0 +1,50 @@
+.about {
+    display: flex;
+    margin-top: 2rem;
+
+    .left {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .a-button {
+            margin-top: 20px;
+        }
+    }
+
+    .left>div {
+        
+        
+        font-size: 25px;
+    }
+
+    .right {
+        flex: 1;
+
+        .a-description {
+            border: 1px solid #48C9B0;
+            padding: 2rem;
+            border-radius: 5%;
+            width: 40vw;
+            height: auto;
+            -webkit-box-shadow: -1px 0px 27px 1px rgba(72, 201, 176, 1);
+            -moz-box-shadow: -1px 0px 27px 1px rgba(72, 201, 176, 1);
+            box-shadow: -1px 0px 27px 1px rgba(72, 201, 176, 1);
+
+            .a-title {
+                
+                
+                font-size: 25px;
+            }
+
+            .a-resume {
+                font-size: 20px;
+                font-weight: 300;
+                
+            }
+        }
+    }
+
+}

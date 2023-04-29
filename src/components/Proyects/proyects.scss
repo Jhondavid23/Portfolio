@@ -1,0 +1,33 @@
+.proyects{
+    margin-top: 1rem;
+    .p-info{
+        width: 80vw;
+        margin: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+       
+        
+    }
+    .p-info>h1{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .p-info>p{
+       
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 30px;
+        
+    }
+    .p-box{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+}
