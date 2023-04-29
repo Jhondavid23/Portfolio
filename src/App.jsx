@@ -7,6 +7,7 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import Proyects from './components/Proyects/Proyects'
 import CardContainer from './components/Tecnologies/CardContainer'
+import Contact from './components/Contact/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
         <About/>
         <CardContainer autoPlay ={true}/>
         <Proyects/>
+        <Contact/>
       </div>
     </>
   )
