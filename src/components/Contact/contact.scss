@@ -32,9 +32,19 @@
  
         height: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         position: relative;
+        .c-title{
+            width: 100%;
+            text-align: center;
+            height: 60px;
+        }
+        .c-title>h1{
+            font-size: 25px;
+            font-weight: 400;
+        }
         .c-form{
             display: flex;
             flex-direction: column;

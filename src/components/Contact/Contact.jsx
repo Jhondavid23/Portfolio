@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
 import './contact.scss'
-import sendEmail from './sendEmail';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -36,6 +35,9 @@ function Contact() {
                 <span>Email: juandaviddiazorozco@gmail.com</span>
             </div>
             <div className="c-left">
+                <div className='c-title'>
+                    <h1>Contact me</h1>
+                </div>
                 <form ref={form} onSubmit={handleSubmit} className='c-form'>
                     <label>
                         <span>Name:</span>
@@ -47,7 +49,7 @@ function Contact() {
                         />
                     </label>
                     <label>
-                        Asunto:
+                        Email:
                         <input
                             type="text"
                             value={subject}
