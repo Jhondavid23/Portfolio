@@ -5,7 +5,7 @@ function CardTecnologies({ data }) {
   return (
     <div className='card'>
       <div className='card-content'>
-        <img src={`./../../../public/Images/png/${data.image}`} alt='' />
+        <img src={`/Images/png/${data.image}`} alt='' />
       </div>
       <div className='card-body'>
         <h2 className='card-title'>{data.title}</h2>
