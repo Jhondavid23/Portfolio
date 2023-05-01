@@ -3,7 +3,7 @@
 export const proyects = [
     {
         name: "Free Games",
-        images: ['./../../public/../public/Images/proyect1/freegames1.png', './../../public/Images/proyect1/freegames2.png', './../../public/Images/proyect1/freegames3.png'],
+        images: ['/Images/proyect1/freegames1.png', '/Images/proyect1/freegames2.png', '/Images/proyect1/freegames3.png'],
         description: "A web project focused on the video game industry, which makes use of an API. The functionalities that you can find on the website are: A section to list, sort, and filter the available video games, the ability to add video games to a favorites section, the option to view a more detailed description of each game by clicking on it, and a section to display information about the page and its developer.",
         tecnologies: "Javascript, ReactJs, ReduxJs, HTML, CSS",
         year : "2022"
