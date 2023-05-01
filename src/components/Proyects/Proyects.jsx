@@ -12,6 +12,7 @@ function Proyects() {
             <div className="p-box" >
                 {proyects && proyects.map((proyect, i) => <div key={i}> <ProyectCard proyect={proyect} /> </div>)}
             </div>
+            
 
         </div>
     )
