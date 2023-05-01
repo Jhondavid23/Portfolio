@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './proyectCard.scss'
 import Modal from '../Modals/Modal';
 import { useModal } from './../../hooks/useModal'
+import ProyectDetail from './ProyectDetail';
 
 function ProyectCard({ proyect }) {
   const imagen = proyect.images[0];
@@ -32,8 +33,7 @@ function ProyectCard({ proyect }) {
       </div>
       <div>
         <Modal isOpen={isOpen} closeModal={closeModal} >
-          <h3>Modal 1</h3>
-          <p>This is a modal.</p>
+          <ProyectDetail proyect={proyect}/>
         </Modal>
       </div>
     </div>

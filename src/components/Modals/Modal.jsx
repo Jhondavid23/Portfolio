@@ -6,7 +6,7 @@ function Modal({children, isOpen, closeModal}) {
         <div className={`modal ${isOpen ? "is-open" : ""}`} onClick={closeModal}>
             <div className="modal-container" onClick={handleModalContainerClick}>
                 <button className="modal-close" onClick={closeModal}>X</button>
-                <h2>Modales</h2>
+                
                 {children}
             </div>
         </div>

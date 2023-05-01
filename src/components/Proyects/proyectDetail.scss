@@ -1,0 +1,46 @@
+.proyectDetailContainer {
+    padding: 1rem;
+    color: white;
+
+    .p-one {
+        text-align: center;
+    }
+
+    .p-one>h1 {
+        margin-bottom: 2rem;
+    }
+
+    .p-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-two>h3 {
+        margin: 1rem;
+    }
+
+    .p-two>p {
+        font-weight: 300;
+        font-size: large;
+        justify-self: center;
+    }
+
+    .p-three {
+        margin-top: 2rem;
+       
+    }
+
+    .p-three>h3 {
+        font-weight: 300;
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+
+    .p-three>p {
+        font-weight: 300;
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+}
