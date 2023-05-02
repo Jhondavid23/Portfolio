@@ -1,6 +1,6 @@
 .about {
     display: flex;
-    padding-top: 4rem;
+    padding-top: 3rem;
     height: auto;
 
     .left {
@@ -53,7 +53,7 @@
 @media(max-width: 900px){
     .about{
         display: block;
-        padding-top: 50%;
+        
 
         .right{
             display: flex;
