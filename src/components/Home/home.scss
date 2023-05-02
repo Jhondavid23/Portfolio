@@ -49,8 +49,7 @@
             margin-top: 2rem;
             display: flex;
             gap: 1rem;
-            position: absolute;
-            bottom: 0;
+            margin-bottom: 5px;
 
         }
 
@@ -73,16 +72,30 @@
         justify-content: center;
         position: relative;
 
-        .floatingDiv1 {
+        .codeIcon {
+            color: white;
             z-index: 2;
-            top: 1%;
-            left: 65%;
+            font-size: 60px;
+            position: absolute;
+            transform: scale(1.5);
+            top: 2%;
+            left: 10%;
+            border-radius: 50%;
+            padding: 0%;
+        }
+
+        .floatingDiv1 {
+            position: absolute;
+            right: 0%;
+            top: 10%;
+            z-index: 2;
         }
 
         .floatingDiv2 {
+            position: absolute;
+            left: 0%;
+            bottom: 0%;
             z-index: 2;
-            top: 19rem;
-            left: -2rem;
         }
 
         .h-image {
@@ -95,7 +108,7 @@
                 height: 35vw;
                 border-radius: 50%;
                 overflow: hidden;
-                background-color: aqua;
+
                 position: relative;
 
             }
@@ -118,89 +131,98 @@
         }
     }
 
-    .h-right>* {
-        position: absolute;
-    }
 
-    .h-right>:nth-child(1) {
-        color: white;
-        z-index: 2;
-        font-size: 60px;
-        position: absolute;
-        transform: scale(1.5);
-        top: 2%;
-        left: 10%;
-        border-radius: 50%;
-        padding: 0%;
-    }
+
+
 }
 
 @media (max-width: 992px) {
     .home {
-        display: flex;
         flex-direction: column;
-
-
+        margin-bottom: 45%;
     }
 
-    .home .h-left {
-        padding-bottom: 80px;
+    .h-right {
 
-    }
-
-    .home .h-right {
-        
-     
-
-        .floatingDiv1 {
-            top: 5vw;
-            right: 0%;
-           
-        }
-
-        .floatingDiv2 {
-
-            top: 100%;
-            left: 0%;
-        }
+        margin-top: 2rem;
+        margin: 0%;
+        padding-top: 50%;
+        padding-bottom: 50%;
+        position: relative;
+        display: flex;
 
         .codeIcon {
-            top: 20%;
-        }
-
-        .h-image {
-            bottom: -2%;
-        }
-
-        .h-image .h-picture {
-
-            width: 300px;
-            height: 300px;
-            bottom: 0%;
+            display: none;
         }
     }
+
+    .floatingDiv2 {
+        position: absolute;
+        bottom: 0%;
+        left: 0;
+    }
+
+    .floatingDiv1 {
+        position: absolute;
+        top: 0%;
+        right: 0;
+    }
+
+    .h-image {
+        position: absolute;
+        top: 27%;
+    }
+
+
+
 }
 
 @media (max-width: 500px) {
-
-    .home .h-right {
-        .h-image .h-picture {
-
-            width: 200px;
-            height: 200px;
-            bottom: 0%;
-        }
-
-        .floatingDiv1{
-            width: 200px;
-            left: 40%;
-        }
-        .floatingDiv2{
-            width: 200px;
-            left: 0%;
-            top: 110%;
-        }
+    .home {
+        flex-direction: column;
+        margin-bottom: 55%;
 
     }
+
+    .h-right {
+
+        margin-top: 2rem;
+        margin: 0%;
+        padding-top: 60%;
+        padding-bottom: 60%;
+        position: relative;
+        display: flex;
+
+        .codeIcon {
+            display: none;
+        }
+
+
+
+    }
+
+    .floatingDiv2 {
+        position: absolute;
+        bottom: 0%;
+        left: 0;
+    }
+
+    .floatingDiv1 {
+        position: absolute;
+        top: 0%;
+        right: 0;
+    }
+
+    .h-image {
+        position: absolute;
+        top: 37%;
+    }
+
+    .codeIcon {
+        display: none;
+    }
+
+
+
 
 }

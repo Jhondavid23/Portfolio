@@ -29,6 +29,7 @@ function Home() {
                 </div>
             </div>
             <div className="h-right">
+                
                 <CodeIcon className='codeIcon'/>
                 <div className='floatingDiv1'>
                     <FloatingDiv Image={WebIcon} text1='Frontend' text2="Developer" />
