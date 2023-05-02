@@ -11,7 +11,7 @@ function About() {
         document.body.removeChild(link);
     }
     return (
-        <div className='about'>
+        <div className='about' id='seccion2'>
             <div className="left">
                 <div>
                     My resume

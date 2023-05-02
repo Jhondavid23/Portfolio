@@ -28,7 +28,7 @@ function Contact() {
         setMessage('');
     };
     return (
-        <div className='contact'>
+        <div className='contact' id='seccion4'>
             <div className="c-right">
                 <h1>Contact info</h1>
                 <span>Phone: +57 3003711416</span>

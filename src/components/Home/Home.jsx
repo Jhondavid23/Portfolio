@@ -10,7 +10,7 @@ import CodeIcon from '@mui/icons-material/Code';
 
 function Home() {
     return (
-        <div className='home'>
+        <div className='home' id='seccion1'>
             <div className='h-left'>
                 <div className="h-name">
                     <span>Hy! I Am</span>
@@ -30,10 +30,10 @@ function Home() {
             </div>
             <div className="h-right">
                 <CodeIcon className='codeIcon'/>
-                <div className='floatingDiv' style={{zIndex : "2", top : "1%", left : "68%"}}>
+                <div className='floatingDiv1'>
                     <FloatingDiv Image={WebIcon} text1='Frontend' text2="Developer" />
                 </div>
-                <div className='floatingDiv' style={{zIndex : "2", top: "19rem", left: "-2rem"}}>
+                <div className='floatingDiv2'>
                     <FloatingDiv Image={TerminalIcon} text1='Backend' text2="Developer" />
                 </div>
                 <div className='h-image'>

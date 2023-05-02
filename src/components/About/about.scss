@@ -1,6 +1,7 @@
 .about {
     display: flex;
-    margin-top: 2rem;
+    padding-top: 4rem;
+    height: auto;
 
     .left {
         flex: 1;
@@ -35,7 +36,7 @@
 
             .a-title {
                 
-                
+                margin-bottom: 10px;
                 font-size: 25px;
             }
 
@@ -47,4 +48,27 @@
         }
     }
 
+}
+
+@media(max-width: 900px){
+    .about{
+        display: block;
+        padding-top: 50%;
+
+        .right{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20%;
+        }
+        .right .a-description{
+            width: 90%;
+            text-align: center;
+
+            .a-title{
+                margin-bottom: 20px;
+            }
+        }
+    }
 }

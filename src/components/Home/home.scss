@@ -2,11 +2,12 @@
 
 .home {
     display: flex;
-    height: 77vh;
-    margin-top: 6rem;
+    height: 97vh;
+
     z-index: 9999;
     transition: 0.32 ease-in-out;
-    padding: 0px 40px 0px 40px;
+    padding: 5rem 40px 0px 40px;
+
     .h-left {
         display: flex;
         position: relative;
@@ -71,13 +72,24 @@
         display: flex;
         justify-content: center;
         position: relative;
-        
-        
+
+        .floatingDiv1 {
+            z-index: 2;
+            top: 1%;
+            left: 65%;
+        }
+
+        .floatingDiv2 {
+            z-index: 2;
+            top: 19rem;
+            left: -2rem;
+        }
 
         .h-image {
             position: absolute;
             z-index: 1;
             bottom: 5%;
+
             .h-picture {
                 width: 35vw;
                 height: 35vw;
@@ -106,7 +118,7 @@
         }
     }
 
-    .h-right>*{
+    .h-right>* {
         position: absolute;
     }
 
@@ -121,4 +133,74 @@
         border-radius: 50%;
         padding: 0%;
     }
+}
+
+@media (max-width: 992px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .home .h-left {
+        padding-bottom: 80px;
+
+    }
+
+    .home .h-right {
+        
+     
+
+        .floatingDiv1 {
+            top: 5vw;
+            right: 0%;
+           
+        }
+
+        .floatingDiv2 {
+
+            top: 100%;
+            left: 0%;
+        }
+
+        .codeIcon {
+            top: 20%;
+        }
+
+        .h-image {
+            bottom: -2%;
+        }
+
+        .h-image .h-picture {
+
+            width: 300px;
+            height: 300px;
+            bottom: 0%;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+
+    .home .h-right {
+        .h-image .h-picture {
+
+            width: 200px;
+            height: 200px;
+            bottom: 0%;
+        }
+
+        .floatingDiv1{
+            width: 200px;
+            left: 40%;
+        }
+        .floatingDiv2{
+            width: 200px;
+            left: 0%;
+            top: 110%;
+        }
+
+    }
+
 }
