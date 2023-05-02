@@ -180,7 +180,7 @@
 @media (max-width: 500px) {
     .home {
         flex-direction: column;
-        margin-bottom: 55%;
+        margin-bottom: 25%;
 
     }
 
@@ -225,4 +225,12 @@
 
 
 
+}
+
+@media(max-width: 380px){
+    .home {
+        flex-direction: column;
+        margin-bottom: 85%;
+
+    }
 }
