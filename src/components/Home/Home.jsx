@@ -13,7 +13,7 @@ function Home() {
         <div className='home' id='seccion1'>
             <div className='h-left'>
                 <div className="h-name">
-                    <span>Hy! I Am</span>
+                    <span>Hi! I am</span>
                     <span>Juan David</span>
                     <span>FullStack developer whit experience in designing and developing high quality web solutions. </span>
                 </div>
