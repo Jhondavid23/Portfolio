@@ -15,7 +15,7 @@ function Home() {
                 <div className="h-name">
                     <span>Hi! I am</span>
                     <span>Juan David</span>
-                    <span>FullStack developer whit experience in designing and developing high quality web solutions. </span>
+                    <span>FullStack developer whith experience in designing and developing high quality web solutions. </span>
                 </div>
                 <button className='button h-button'>About me</button>
                 <div className="h-icons">
